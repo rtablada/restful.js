@@ -1,0 +1,18 @@
+{
+  "name": "restful-link",
+  "version": "0.0.0",
+  "authors": [
+    "Ryan Tablada <ryan.tablada@gmail.com>"
+  ],
+  "main": "js/restful.js",
+  "keywords": [
+    "REST",
+    "frameworks",
+    "rails",
+    "laravel"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "*"
+  }
+}
