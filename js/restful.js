@@ -3,7 +3,7 @@ var restful = (function(){
 		var tokenInput = null;
 
 		if (window.csrfToken) {
-			tokenInput = $("<input type='hidden' name='_token' value='"+ window.csrfToken +"'/>");
+			tokenInput = "<input type='hidden' name='_token' value='"+ window.csrfToken +"'/>";
 		}
 
 		$('[data-method]').append(function(){
